@@ -1,6 +1,5 @@
 package com.example.appnotificacoesufg;
 
-import android.R;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
