@@ -60,5 +60,23 @@ public class Notificacao extends ActionBarActivity {
 			return rootView;
 		}
 	}
+	
+	@Override
+	protected void onPause(){
+	super.onPause();	
+		
+	}
+	
+	@Override
+	protected void onRestart(){
+	super.onRestart();	
+		
+	}
+	
+	@Override
+	protected void onStop(){
+	super.onStop();	
+		
+	}
 
 }
