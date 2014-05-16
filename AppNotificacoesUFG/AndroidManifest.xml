@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.appnotificacoesufg.Notificacao"
+            android:name="notificacoes_view.Notificacao"
             android:label="@string/title_activity_notificacao" >
         </activity>
     </application>

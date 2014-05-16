@@ -1,4 +1,9 @@
-package com.example.appnotificacoesufg;
+package notificacoes_view;
+
+import com.example.appnotificacoesufg.R;
+import com.example.appnotificacoesufg.R.id;
+import com.example.appnotificacoesufg.R.layout;
+import com.example.appnotificacoesufg.R.menu;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
