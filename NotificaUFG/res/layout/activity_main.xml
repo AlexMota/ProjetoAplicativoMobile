@@ -4,56 +4,6 @@
     android:layout_height="match_parent"
     tools:context="${packageName}.${activityClass}" >
 
-    <EditText
-        android:id="@+id/entradaSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/senha"
-        android:layout_centerVertical="true"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/nome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="91dp"
-        android:text="@string/nome" />
-
-    <EditText
-        android:id="@+id/entradaNome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/nome"
-        android:layout_below="@+id/nome"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="textPersonName" >
-
-        <requestFocus />
-    </EditText>
-
-    <TextView
-        android:id="@+id/senha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/entradaSenha"
-        android:layout_alignLeft="@+id/entradaNome"
-        android:text="@string/senha" />
-
-    <Button
-        android:id="@+id/bt_entrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/entradaSenha"
-        android:layout_alignRight="@+id/entradaNome"
-        android:layout_below="@+id/entradaSenha"
-        android:layout_marginTop="27dp"
-        android:text="@string/entrar" />
-
     <Button
         android:id="@+id/bt_registrar"
         android:layout_width="wrap_content"
@@ -63,5 +13,52 @@
         android:layout_below="@+id/bt_entrar"
         android:layout_marginTop="16dp"
         android:text="@string/registrar" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entradaNome"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/entradaNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entradaSenha"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entradaNome"
+        android:layout_below="@+id/entradaNome"
+        android:layout_marginTop="25dp"
+        android:text="@string/senha" />
+
+    <Button
+        android:id="@+id/bt_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entradaSenha"
+        android:layout_alignRight="@+id/entradaSenha"
+        android:layout_below="@+id/entradaSenha"
+        android:layout_marginTop="26dp"
+        android:text="@string/entrar" />
+
+    <EditText
+        android:id="@+id/entradaSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword" />
 
 </RelativeLayout>

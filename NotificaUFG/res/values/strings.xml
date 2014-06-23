@@ -7,8 +7,14 @@
     <string name="senha">Senha:</string>
     <string name="entrar">Entrar</string>
     <string name="registrar">Registrar-se</string>
-    
-    
+    <string name="title_activity_registrar">RegistrarActivity</string>
+    <string name="nome_completo">Nome completo:</string>
+    <string name="email">E-mail:</string>
+    <string name="tipo_usuario">Tipo de usuário::</string>
+        <string name="estudante">Estudante:</string>
+        <string name="docente">Docente:</string>
+            <string name="administrativo">Administrativo:</string>
+        
     
     
     
