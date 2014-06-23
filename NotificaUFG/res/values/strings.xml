@@ -3,5 +3,14 @@
 
     <string name="app_name">NotificaUFG</string>
     <string name="hello_world">Hello world!</string>
+    <string name="nome">Nome de usuário:</string>
+    <string name="senha">Senha:</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar-se</string>
+    
+    
+    
+    
+    
 
 </resources>

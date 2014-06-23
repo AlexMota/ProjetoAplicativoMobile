@@ -233,6 +233,11 @@ int drawable abc_textfield_searchview_holo_light 0x7f020054
 int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable ic_launcher 0x7f020057
+int drawable ic_logo_ufg_selected 0x7f020058
+int drawable ic_logo_ufg_unselected 0x7f020059
+int drawable ic_ufg_logo 0x7f02005a
+int drawable ufg 0x7f02005b
+int drawable ufg_logo 0x7f02005c
 int id action_bar 0x7f05001c
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f05001b
@@ -247,6 +252,8 @@ int id action_mode_close_button 0x7f050024
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
+int id bt_entrar 0x7f050040
+int id bt_registrar 0x7f050041
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id default_activity_button 0x7f050028
@@ -255,6 +262,8 @@ int id disableHome 0x7f050008
 int id dropdown 0x7f05000f
 int id edit_query 0x7f050030
 int id end 0x7f050013
+int id entradaNome 0x7f05003f
+int id entradaSenha 0x7f05003c
 int id expand_activities_button 0x7f050026
 int id expanded_menu 0x7f05002c
 int id home 0x7f050014
@@ -266,6 +275,7 @@ int id listMode 0x7f050001
 int id list_item 0x7f050029
 int id middle 0x7f050012
 int id never 0x7f050009
+int id nome 0x7f05003e
 int id none 0x7f050010
 int id normal 0x7f050000
 int id progress_circular 0x7f050018
@@ -281,6 +291,7 @@ int id search_mag_icon 0x7f050035
 int id search_plate 0x7f050036
 int id search_src_text 0x7f050037
 int id search_voice_btn 0x7f05003b
+int id senha 0x7f05003d
 int id shortcut 0x7f05002e
 int id showCustom 0x7f050007
 int id showHome 0x7f050004
@@ -334,7 +345,11 @@ int string abc_searchview_description_voice 0x7f0a0008
 int string abc_shareactionprovider_share_with 0x7f0a000c
 int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string app_name 0x7f0a000d
+int string entrar 0x7f0a0011
 int string hello_world 0x7f0a000e
+int string nome 0x7f0a000f
+int string registrar 0x7f0a0012
+int string senha 0x7f0a0010
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063
