@@ -72,7 +72,7 @@
         android:text="@string/tipo_usuario" />
 
     <RadioGroup
-        android:id="@+id/radioGroup1"
+        android:id="@+id/opcoesTipoUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tipoUsuario"
@@ -80,22 +80,31 @@
         android:layout_marginTop="14dp" >
 
         <RadioButton
-            android:id="@+id/radio0"
+            android:id="@+id/op_estudante"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/estudante" />
 
         <RadioButton
-            android:id="@+id/radio1"
+            android:id="@+id/op_docente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/docente" />
 
         <RadioButton
-            android:id="@+id/radio2"
+            android:id="@+id/op_administrativo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/administrativo" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/opcoesTipoUsuario"
+        android:layout_alignRight="@+id/entradaEmail"
+        android:layout_below="@+id/opcoesTipoUsuario"
+        android:text="@string/registrar" />
 
 </RelativeLayout>

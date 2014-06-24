@@ -10,13 +10,14 @@
     <string name="title_activity_registrar">RegistrarActivity</string>
     <string name="nome_completo">Nome completo:</string>
     <string name="email">E-mail:</string>
-    <string name="tipo_usuario">Tipo de usuário::</string>
-        <string name="estudante">Estudante:</string>
-        <string name="docente">Docente:</string>
-            <string name="administrativo">Administrativo:</string>
-        
-    
-    
-    
+    <string name="tipo_usuario">Tipo de usuário:</string>
+    <string name="estudante">Estudante</string>
+    <string name="docente">Docente</string>
+    <string name="administrativo">Administrativo</string>
+    <string name="title_activity_notificacao">NotificacaoActivity</string>
+    <string name="data">02:40 de 27/05/2014</string>
+    <string name="remetente">Remetente</string>
+    <string name="conteudo">Conteudo da notificação</string>
+    <string name="title_activity_lista_notificacoes">ListaNotificacoesActivity</string>
 
 </resources>

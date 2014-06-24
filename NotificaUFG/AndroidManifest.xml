@@ -26,6 +26,14 @@
             android:name="com.example.notificaufg.RegistrarActivity"
             android:label="@string/title_activity_registrar" >
         </activity>
+        <activity
+            android:name="com.example.notificaufg.NotificacaoActivity"
+            android:label="@string/title_activity_notificacao" >
+        </activity>
+        <activity
+            android:name="com.example.notificaufg.ListaNotificacoesActivity"
+            android:label="@string/title_activity_lista_notificacoes" >
+        </activity>
     </application>
 
 </manifest>

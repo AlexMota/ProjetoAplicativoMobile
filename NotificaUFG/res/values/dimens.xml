@@ -1,0 +1,6 @@
+<resources>
+
+    <dimen name="activity_horizontal_margem">16dp</dimen>
+    <dimen name="activity_vertical_margem">16dp</dimen>
+
+</resources>
