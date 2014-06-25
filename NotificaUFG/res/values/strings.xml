@@ -14,8 +14,8 @@
     <string name="estudante">Estudante</string>
     <string name="docente">Docente</string>
     <string name="administrativo">Administrativo</string>
-    <string name="title_activity_notificacao">NotificacaoActivity</string>
-    <string name="data">02:40 de 27/05/2014</string>
+    <string name="title_activity_notificacao">Notificacao</string>
+    <string name="data">27/05/2014</string>
     <string name="remetente">Remetente</string>
     <string name="conteudo">Conteudo da notificação</string>
     <string name="title_activity_lista_notificacoes">Notificacoes Recebidas</string>
@@ -40,5 +40,6 @@
     <string name="sair">Sair</string>
     <string name="cancelar">Cancelar</string>
     <string name="concluir">Concluir</string>
+    <string name="title_activity_lista">Notificacoes Recebidas</string>
 
 </resources>

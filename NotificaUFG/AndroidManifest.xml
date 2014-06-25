@@ -42,6 +42,10 @@
             android:name="com.example.notificaufg.MenuActivity"
             android:label="@string/title_activity_menu" >
         </activity>
+        <activity
+            android:name="com.example.notificaufg.ListaActivity"
+            android:label="@string/title_activity_lista" >
+        </activity>
     </application>
 
 </manifest>

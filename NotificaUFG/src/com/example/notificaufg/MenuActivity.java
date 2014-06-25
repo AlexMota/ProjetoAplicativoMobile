@@ -14,7 +14,6 @@ public class MenuActivity extends Activity {
 	
 	Button mNotificacoes;
 	Button mConfiguracoes;
-	Button mSair;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +25,6 @@ public class MenuActivity extends Activity {
 	private void iniciarView(){
 		mNotificacoes = (Button) findViewById(R.id.notificacoes);
 		mConfiguracoes = (Button) findViewById(R.id.configuracoes);
-		mSair = (Button) findViewById(R.id.sair);
 		
 		mNotificacoes.setOnClickListener(new OnClickListener() {
 			
@@ -48,15 +46,7 @@ public class MenuActivity extends Activity {
 
 		});
 		
-		mSair.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				sairAplicativo();
-			}
 
-		});
 		
 	}
 
@@ -69,7 +59,7 @@ public class MenuActivity extends Activity {
 
 	private void abrirTelaNotificacoes(Activity activity) {
 		// TODO Auto-generated method stub
-		Intent intent = new Intent(activity, ListaNotificacoesActivity.class);
+		Intent intent = new Intent(activity, ListaActivity.class);
 		startActivity(intent);
 		
 	}
@@ -87,8 +77,5 @@ public class MenuActivity extends Activity {
 	}
 	
 
-	private void sairAplicativo() {
-		// TODO Auto-generated method stub
-	}
 	
 }

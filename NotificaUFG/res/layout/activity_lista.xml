@@ -5,33 +5,30 @@
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
-        android:id="@+id/menu"
+        android:id="@+id/remetenteItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:text="@string/menu"
+        android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <Button
-        android:id="@+id/configuracoes"
+    <TextView
+        android:id="@+id/textoItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/notificacoes"
-        android:layout_marginTop="18dp"
-        android:text="@string/configuracoes" />
+        android:layout_below="@+id/remetenteItem"
+        android:text="TextView" />
 
-    <Button
-        android:id="@+id/notificacoes"
+    <TextView
+        android:id="@+id/dataItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/remetenteItem"
+        android:layout_alignBottom="@+id/remetenteItem"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/menu"
-        android:layout_marginTop="34dp"
-        android:text="@string/notificacoes" />
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
