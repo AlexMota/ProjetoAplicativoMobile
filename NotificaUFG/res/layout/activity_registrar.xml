@@ -1,117 +1,125 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${packageName}.${activityClass}" >
+    android:paddingBottom="@dimen/activity_vertical_margem"
+    android:paddingLeft="@dimen/activity_horizontal_margem"
+    android:paddingRight="@dimen/activity_horizontal_margem"
+    android:paddingTop="@dimen/activity_vertical_margem" >
 
-    <TextView
-        android:id="@+id/nomeCompleto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/nome_completo" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
-    <EditText
-        android:id="@+id/entradaNomeCompleto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/nomeCompleto"
-        android:layout_below="@+id/nomeCompleto"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-    <TextView
-        android:id="@+id/nomeDeUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/entradaNomeCompleto"
-        android:layout_below="@+id/entradaNomeCompleto"
-        android:layout_marginTop="24dp"
-        android:text="@string/nome" />
-
-    <EditText
-        android:id="@+id/entradaNomeUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/nomeDeUsuario"
-        android:layout_below="@+id/nomeDeUsuario"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/entradaNomeUsuario"
-        android:layout_below="@+id/entradaNomeUsuario"
-        android:layout_marginTop="19dp"
-        android:text="@string/email" />
-
-    <EditText
-        android:id="@+id/entradaEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/email"
-        android:layout_below="@+id/email"
-        android:ems="10"
-        android:inputType="textEmailAddress" >
-
-        <requestFocus />
-    </EditText>
-
-    <TextView
-        android:id="@+id/tipoUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/entradaEmail"
-        android:layout_below="@+id/entradaEmail"
-        android:layout_marginTop="24dp"
-        android:text="@string/tipo_usuario" />
-
-    <RadioGroup
-        android:id="@+id/opcoesTipoUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tipoUsuario"
-        android:layout_below="@+id/tipoUsuario"
-        android:layout_marginTop="14dp" >
-
-        <RadioButton
-            android:id="@+id/op_estudante"
+        <TextView
+            android:id="@+id/nomeCompleto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/estudante" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/nome_completo" />
 
-        <RadioButton
-            android:id="@+id/op_docente"
+        <EditText
+            android:id="@+id/entradaNomeCompleto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/docente" />
+            android:layout_alignLeft="@+id/nomeCompleto"
+            android:layout_below="@+id/nomeCompleto"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
-        <RadioButton
-            android:id="@+id/op_administrativo"
+        <TextView
+            android:id="@+id/nomeDeUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/administrativo" />
-    </RadioGroup>
+            android:layout_alignLeft="@+id/entradaNomeCompleto"
+            android:layout_below="@+id/entradaNomeCompleto"
+            android:layout_marginTop="24dp"
+            android:text="@string/nome" />
 
-    <Button
-        android:id="@+id/cancelarRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/opcoesTipoUsuario"
-        android:layout_below="@+id/opcoesTipoUsuario"
-        android:text="@string/cancelar" />
+        <EditText
+            android:id="@+id/entradaNomeUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nomeDeUsuario"
+            android:layout_below="@+id/nomeDeUsuario"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/registrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/opcoesTipoUsuario"
-        android:layout_toRightOf="@+id/tipoUsuario"
-        android:text="@string/registrar" />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/entradaNomeUsuario"
+            android:layout_below="@+id/entradaNomeUsuario"
+            android:layout_marginTop="19dp"
+            android:text="@string/email" />
 
-</RelativeLayout>
+        <EditText
+            android:id="@+id/entradaEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/email"
+            android:layout_below="@+id/email"
+            android:ems="10"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tipoUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/entradaEmail"
+            android:layout_below="@+id/entradaEmail"
+            android:layout_marginTop="24dp"
+            android:text="@string/tipo_usuario" />
+
+        <RadioGroup
+            android:id="@+id/opcoesTipoUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tipoUsuario"
+            android:layout_below="@+id/tipoUsuario"
+            android:layout_marginTop="14dp" >
+
+            <RadioButton
+                android:id="@+id/op_estudante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estudante" />
+
+            <RadioButton
+                android:id="@+id/op_docente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/docente" />
+
+            <RadioButton
+                android:id="@+id/op_administrativo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/administrativo" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/cancelarRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/opcoesTipoUsuario"
+            android:layout_alignParentBottom="true"
+            android:text="@string/cancelar" />
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opcoesTipoUsuario"
+            android:layout_toRightOf="@+id/tipoUsuario"
+            android:text="@string/registrar" />
+    </RelativeLayout>
+
+</ScrollView>

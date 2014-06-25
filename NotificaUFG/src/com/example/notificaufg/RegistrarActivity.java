@@ -47,6 +47,7 @@ public class RegistrarActivity extends Activity {
 				
 			}
 
+
 		});
 
 		mCancelar.setOnClickListener(new OnClickListener() {
@@ -62,16 +63,17 @@ public class RegistrarActivity extends Activity {
 
 	}
 	
-	private void cancelar() {
-		// TODO Auto-generated method stub
-		abrirTelaLogin(this);
-		
-	}
 
-	private void abrirTelaLogin(Activity activity) {
+	private void abrirTelaInicial(Activity activity) {
 		// TODO Auto-generated method stub
 		Intent intent = new Intent(activity, MainActivity.class);
 		startActivity(intent);
+		
+	}
+	
+	private void cancelar() {
+		// TODO Auto-generated method stub
+		abrirTelaInicial(this);
 		
 	}
 
@@ -84,7 +86,10 @@ public class RegistrarActivity extends Activity {
 		// TODO Auto-generated method stub
 		Intent intent = new Intent(activity, MenuActivity.class);
 		startActivity(intent);
+		
 	}
+
+
 	
 	
 	

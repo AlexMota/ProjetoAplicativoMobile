@@ -39,5 +39,6 @@
     <string name="configuracoes">Configuraçoes</string>
     <string name="sair">Sair</string>
     <string name="cancelar">Cancelar</string>
+    <string name="concluir">Concluir</string>
 
 </resources>

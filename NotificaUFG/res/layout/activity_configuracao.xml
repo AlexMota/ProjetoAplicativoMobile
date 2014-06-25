@@ -1,101 +1,128 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${packageName}.${activityClass}" >
+    android:paddingBottom="@dimen/activity_vertical_margem"
+    android:paddingLeft="@dimen/activity_horizontal_margem"
+    android:paddingRight="@dimen/activity_horizontal_margem"
+    android:paddingTop="@dimen/activity_vertical_margem" >
 
-         <TextView
-             android:id="@+id/geral"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentLeft="true"
-             android:layout_alignParentTop="true"
-             android:layout_marginLeft="18dp"
-             android:layout_marginTop="19dp"
-             android:text="@string/geral"
-             android:textAppearance="?android:attr/textAppearanceLarge" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
-         <CheckBox
-             android:id="@+id/reitoria"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_below="@+id/geral"
-             android:layout_toRightOf="@+id/geral"
-             android:text="@string/reitoria" />
+        <TextView
+            android:id="@+id/geral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/geral"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
-         <CheckBox
-             android:id="@+id/proReitoria"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/reitoria"
-             android:layout_below="@+id/reitoria"
-             android:text="@string/pro_reitoria" />
+        <CheckBox
+            android:id="@+id/reitoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/geral"
+            android:layout_toRightOf="@+id/geral"
+            android:text="@string/reitoria" />
 
-         <CheckBox
-             android:id="@+id/biblioteca"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/proReitoria"
-             android:layout_below="@+id/proReitoria"
-             android:text="@string/biblioteca" />
+        <CheckBox
+            android:id="@+id/proReitoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/reitoria"
+            android:layout_below="@+id/reitoria"
+            android:text="@string/pro_reitoria" />
 
-         <CheckBox
-             android:id="@+id/coordenacao"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/direcao"
-             android:layout_below="@+id/direcao"
-             android:text="@string/cooordenacao" />
+        <CheckBox
+            android:id="@+id/biblioteca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/proReitoria"
+            android:layout_below="@+id/proReitoria"
+            android:text="@string/biblioteca" />
 
-         <TextView
-             android:id="@+id/curso"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/geral"
-             android:layout_below="@+id/biblioteca"
-             android:text="@string/curso"
-             android:textAppearance="?android:attr/textAppearanceLarge" />
+        <CheckBox
+            android:id="@+id/coordenacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/direcao"
+            android:layout_below="@+id/direcao"
+            android:text="@string/cooordenacao" />
 
-         <CheckBox
-             android:id="@+id/direcao"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/biblioteca"
-             android:layout_below="@+id/curso"
-             android:text="@string/direcao" />
+        <TextView
+            android:id="@+id/curso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/geral"
+            android:layout_below="@+id/biblioteca"
+            android:text="@string/curso"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
-         <TextView
-             android:id="@+id/disciplinas"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignLeft="@+id/curso"
-             android:layout_below="@+id/coordenacao"
-             android:layout_marginTop="14dp"
-             android:text="@string/disciplina"
-             android:textAppearance="?android:attr/textAppearanceLarge" />
+        <CheckBox
+            android:id="@+id/direcao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/biblioteca"
+            android:layout_below="@+id/curso"
+            android:text="@string/direcao" />
 
-         <CheckBox
-             android:id="@+id/disciplina1"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_below="@+id/disciplinas"
-             android:layout_toRightOf="@+id/geral"
-             android:text="@string/disciplina_1" />
+        <TextView
+            android:id="@+id/disciplinas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/curso"
+            android:layout_below="@+id/coordenacao"
+            android:layout_marginTop="14dp"
+            android:text="@string/disciplina"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
-         <CheckBox
-             android:id="@+id/disciplina2"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_below="@+id/disciplina1"
-             android:layout_toRightOf="@+id/geral"
-             android:text="@string/disciplina_2" />
+        <CheckBox
+            android:id="@+id/disciplina1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disciplinas"
+            android:layout_toRightOf="@+id/geral"
+            android:text="@string/disciplina_1" />
 
-         <CheckBox
-             android:id="@+id/disciplina3"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_below="@+id/disciplina2"
-             android:layout_toRightOf="@+id/geral"
-             android:text="@string/disciplina_3" />
+        <CheckBox
+            android:id="@+id/disciplina2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disciplina1"
+            android:layout_toRightOf="@+id/geral"
+            android:text="@string/disciplina_2" />
 
-</RelativeLayout>
+        <CheckBox
+            android:id="@+id/disciplina3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disciplina2"
+            android:layout_toRightOf="@+id/geral"
+            android:text="@string/disciplina_3" />
+
+        <Button
+            android:id="@+id/cancelarConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/disciplinas"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/disciplina3"
+            android:text="@string/cancelar" />
+
+        <Button
+            android:id="@+id/concluirConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/coordenacao"
+            android:layout_toRightOf="@+id/disciplinas"
+            android:text="@string/concluir" />
+
+    </RelativeLayout>
+
+</ScrollView>
