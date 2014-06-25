@@ -10,8 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="49dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="28dp"
         android:text="@string/nome_completo" />
 
     <EditText
@@ -99,12 +99,19 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/registrar"
+        android:id="@+id/cancelarRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/opcoesTipoUsuario"
-        android:layout_alignRight="@+id/entradaEmail"
         android:layout_below="@+id/opcoesTipoUsuario"
+        android:text="@string/cancelar" />
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opcoesTipoUsuario"
+        android:layout_toRightOf="@+id/tipoUsuario"
         android:text="@string/registrar" />
 
 </RelativeLayout>

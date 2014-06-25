@@ -4,4 +4,22 @@
     android:layout_height="match_parent"
     tools:context="${packageName}.${activityClass}" >
 
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="false" />
+    
+        <TextView
+        android:id="@+id/listaVazia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/lista_vazia" />
+    
+
+
 </RelativeLayout>

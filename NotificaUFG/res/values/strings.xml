@@ -7,7 +7,7 @@
     <string name="senha">Senha:</string>
     <string name="entrar">Entrar</string>
     <string name="registrar">Registrar-se</string>
-    <string name="title_activity_registrar">RegistrarActivity</string>
+    <string name="title_activity_registrar">Novo Usuário</string>
     <string name="nome_completo">Nome completo:</string>
     <string name="email">E-mail:</string>
     <string name="tipo_usuario">Tipo de usuário:</string>
@@ -18,6 +18,26 @@
     <string name="data">02:40 de 27/05/2014</string>
     <string name="remetente">Remetente</string>
     <string name="conteudo">Conteudo da notificação</string>
-    <string name="title_activity_lista_notificacoes">ListaNotificacoesActivity</string>
+    <string name="title_activity_lista_notificacoes">Notificacoes Recebidas</string>
+    <string name="lista_vazia">Não há nenhuma notificação</string>
+    <string name="title_activity_configuracao">Configuracao</string>
+    <string name="geral">Geral:</string>
+    <string name="curso">Curso:</string>
+    <string name="disciplina">Disciplinas:</string>
+    <string name="reitoria">Reitoria</string>
+    <string name="pro_reitoria">Pro-reitoria</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="direcao">Direcao do instituto</string>
+    <string name="cooordenacao">Coordenacao do curso</string>
+    <string name="disciplina_1">Disciplina 1</string>
+    <string name="disciplina_2">Disciplina 2</string>
+    <string name="disciplina_3">Disciplina 3</string>
+    <string name="preencha_campo">Preencha o campo de texto</string>
+    <string name="title_activity_menu">Menu - Opcoes</string>
+    <string name="menu">MENU</string>
+    <string name="notificacoes">Notificacoes</string>
+    <string name="configuracoes">Configuraçoes</string>
+    <string name="sair">Sair</string>
+    <string name="cancelar">Cancelar</string>
 
 </resources>
